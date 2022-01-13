@@ -1,4 +1,4 @@
-band-id: EU_863_870_Aarhus
+band-id: EU_863_870
 uplink-channels:
 - frequency: 868100000
   min-data-rate: 0
