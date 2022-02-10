@@ -57,7 +57,6 @@ downlink-channels:
 - frequency: 867900000
   min-data-rate: 0
   max-data-rate: 5
-  radio: 0
 lora-standard-channel:
   frequency: 868300000
   data-rate: 6
