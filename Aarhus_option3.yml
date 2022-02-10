@@ -1,9 +1,5 @@
 band-id: EU_863_870
 uplink-channels:
-- frequency: 867900000
-  min-data-rate: 0
-  max-data-rate: 5
-  radio: 1
 - frequency: 868100000
   min-data-rate: 0
   max-data-rate: 5
@@ -29,13 +25,14 @@ uplink-channels:
   max-data-rate: 5
   radio: 0
 - frequency: 865300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+- frequency: 867900000
   min-data-rate: 0
   max-data-rate: 5
   radio: 0
 downlink-channels:
-- frequency: 867900000
-  min-data-rate: 0
-  max-data-rate: 5
 - frequency: 868100000
   min-data-rate: 0
   max-data-rate: 5
@@ -57,6 +54,10 @@ downlink-channels:
 - frequency: 865300000
   min-data-rate: 0
   max-data-rate: 5
+- frequency: 867900000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
 lora-standard-channel:
   frequency: 868300000
   data-rate: 6
@@ -68,13 +69,13 @@ fsk-channel:
 radios:
 - enable: true
   chip-type: SX1257
-  frequency: 868200000
+  frequency: 869100000
   rssi-offset: -166
   tx:
     min-frequency: 863000000
     max-frequency: 870000000
 - enable: true
   chip-type: SX1257
-  frequency: 865000000
+  frequency: 865100000
   rssi-offset: -166
 clock-source: 1
