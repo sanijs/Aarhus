@@ -68,7 +68,7 @@ fsk-channel:
 radios:
 - enable: true
   chip-type: SX1257
-  frequency: 869100000
+  frequency: 868200000
   rssi-offset: -166
   tx:
     min-frequency: 863000000
