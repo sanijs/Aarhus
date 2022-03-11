@@ -1,16 +1,16 @@
-- id: EU_863_870_Aarhus
-  name: Aarhus 863-870 MHz (SF12 for RX2)
+- id: AUH001
+  name: AUH001 (864.5-865.3 Mhz)
   description: Default frequency plan for Aarhus
   base-frequency: 868
   country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
-  file: EU_863_870_Aarhus.yml
+  file: AUH001.yml
   
-- id: Aarhus_option3
-  name: Aarhus_option3 (SF12 for RX2)
+- id: AUH002
+  name: AUH002 (863.1-863.9 Mhz)
   description: Default frequency plan for Aarhus
   base-frequency: 868
   country-codes: [al, ad, ao, at, bh, be, ba, bw, bg, cg, hr, cy, cz, dk, ee, sz, fi, fr, gr, hu, is, ie, it, lv, ls, li, lt, lu, mg, mw, mt, mu, md, me, mz, na, nl, mk, ph, pl, pt, ro, ru, sa, rs, sc, sk, si, za, es, se, ch, tz, tr, ae, gb, va, zm, zw]
-  file: Aarhus_option3.yml
+  file: AUH002.yml
 
 - id: EU_863_870
   name: Europe 863-870 MHz (SF12 for RX2)
